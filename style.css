@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+main {
+    font-family: 'poppins';
+    width: 23rem;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 1px 1px 34px rgba(128, 128, 128, 0.413);
+    margin-top: 42px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    background: linear-gradient(to right,#4557cf, #c450c0);
+    padding: 1.5rem 5rem;
+    margin-top: 0;
+    color: white;
+    cursor: default;
+    margin-bottom: 34px;
+}
+
+input[type=email], input[type=password] {
+    display: block;
+    justify-self: center;
+    height: 42px;
+    width: 18rem;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+    border-radius: 50px;
+    margin-bottom: -6px;
+    padding-left: 18px;
+    font-size: 1rem;
+    font-family: 'poppins';
+}
+
+input[type="password"] {
+    margin-bottom: -12px;
+}
+
+input::placeholder {
+    color: rgba(136, 136, 136, 0.53);
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+label {
+    font-size: .95rem;
+    cursor: pointer;
+}
+
+form a {
+    text-decoration: none;
+    font-size: .95rem;
+    margin-left: 21px;
+    color: #576cd5;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: white;
+    width: 18.3rem;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right,#4557cf, #c450c0);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.bottom {
+    font-size: .9rem;
+    justify-self: center;
+    margin-bottom: 42px;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #576cd5;
+    cursor: pointer;
+}
